@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+#location-form {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #33b048, #a7bc52);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+#location-form label {
+    margin-right: 10px;
+}
+
+#location-input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+#weather-info {
+    display: none;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #46be60, #a7bc52);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    margin-left: 350px;
+}
+
+#weather-info h2 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+#weather-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    padding: 9px;
+    border-radius: 9px;
+}
