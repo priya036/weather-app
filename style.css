@@ -27,16 +27,18 @@ body {
 
 #weather-info {
     display: none;
-    padding: 30px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    text-align: center;
+    padding: 5%;
+    background: linear-gradient(135deg, #33b048, #a7bc52);
     border-radius: 15px;
-    background: linear-gradient(135deg, #46be60, #a7bc52);
-    width: 100%;
-    max-width: 500px;
-    margin-top: 15px;
-    margin-left: 350px;
+    text-align: center;
+    max-width: 100%;
+    margin: 15px auto; 
+}
+
+@media only screen and (min-width: 500px) {
+    #weather-info {
+        max-width: 500px;
+    }
 }
 
 #weather-info h2 {
